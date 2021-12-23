@@ -1,0 +1,28 @@
+.section {
+    font-size: .9rem;
+    position: relative;
+    min-height: 200px;
+    padding-right: 2rem;
+    margin-left: 7rem;
+    min-width: 100%;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    min-width: 10rem;
+    position: absolute;
+    bottom: 5rem;
+    left: -2.5rem;
+    transform: rotate(90deg);
+    display: flex;
+    flex-grow: 1;
+}
+
+.grey {
+    background-color: #eeeeee;
+}
+
+.section.section__with-margin {
+    padding-left: 5rem;
+}

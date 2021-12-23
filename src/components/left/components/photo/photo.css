@@ -1,0 +1,9 @@
+.photo {
+    background-image: url("avatar.jpeg");
+    background-size: 500px;
+    background-position: center;
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    box-shadow: 0 0 9px rgb(8, 44, 48) inset;
+}

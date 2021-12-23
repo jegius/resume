@@ -1,0 +1,20 @@
+.page {
+    display: flex;
+    flex-direction: row;
+    color: #383A3D;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.page__job-position {
+    transform: rotate(90deg);
+    position: absolute;
+    font-size: 4rem;
+    top: 27.5rem;
+    z-index: 100;
+    font-weight: bold;
+    left: -14.5rem;
+    color: #6E6C78;
+    text-shadow: 0 1px 2px #6E6C78;
+    opacity: .4;
+}
